@@ -22,11 +22,11 @@ def test_2_should_be_prime():
 
 
 def test_3_should_be_prime():
-    assert is_prime(n=2)
+    assert is_prime(n=3)
 
 
 def test_5_should_be_prime():
-    assert is_prime(n=2)
+    assert is_prime(n=5)
 
 
 def test_4_should_not_be_prime():
@@ -34,8 +34,8 @@ def test_4_should_not_be_prime():
 
 
 def test_6_should_not_be_prime():
-    assert not is_prime(n=4)
+    assert not is_prime(n=6)
 
 
 def test_8_should_not_be_prime():
-    assert not is_prime(n=4)
+    assert not is_prime(n=8)
