@@ -18,4 +18,4 @@ class Dimmer:
 
     @property
     def consumption(self):
-        return sum([lamp.watt / 100 * self._power for lamp in self.lamps])
+        return sum([lamp.watt for lamp in self.lamps]) / 100 * self._power
